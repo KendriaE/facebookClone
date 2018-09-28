@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a{
+    color: white;
+    text-decoration:none;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+header{
+    background:#3B5998;
+    padding: 15px;
+    }
+
+.fa{
+    color:white;
+    font-size: 16px;
+}
+
+.logo-area{
+color: white;
+display: inline-block;
+width: 20%;
+margin-left: -4px;
+}
+
+.logo-area a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu{
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    border-right: 1px solid rgba(255,255,255,.3);
+    text-align: right;
+    padding-right: 20px;
+    }
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    margin-right: 20px;
+}
+
+.icon-links{
+    display: inline-block;
+     width: 20%;
+    margin-left: -4px;
+    padding-left: 20px;
+   }
+
+.icon-links ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.quick-options{
+    display: inline-block;
+    margin-left: -4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid rgba(255,255,255,.3);
+    }
+
+.privacy{
+    display: inline-block;
+    margin-left: -4px;
+    padding-left: 20px;
+}
+
+.search-area{
+    display: inline-block;
+    width: 40%;
+    margin-left: -4px;
+    text-align: right;
+}
+
+.search-area ul li{
+    display: inline-block;
+}
+
+/*
+///////////////////////////////////////////////////////////////////
+*/
+
+#top-area{
+    padding: 200px 15px 90px 15px;
+    background: url(https://images5.alphacoders.com/473/thumb-1920-473154.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }    
+
+
+#top-area .profile-info .user-img{
+padding: 10px;
+display: inline-block;
+}
+
+#top-area .profile-info .user-img img{
+    border-radius: 50%;
+}
+
+#top-area .profile-info .user-details{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+#top-area .profile-info .user-details h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#top-area .profile-info .user-details a{
+    display: inline-block;
+    margin-left: -4px;
+    margin-right: 5%;
+    width: 45%;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    font-size: 10px;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(255,255,255, .3);
+transition: background .4s ease-in-out;
+    }
+
+    #top-area .profile-info .user-details a:hover{
+        background:#2196f3;
+    }
+
+#content-area{
+    background: #FAFAFA;
+    overflow: auto;
+    padding: 50px 0;
+    }
+
+
+#content-area .widget-box{
+    padding: 15px;
+    background: #fff;
+    margin: 0 0 15px 0;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);
+    -moz-box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);
+    box-shadow: 0px 2px 5px -1px rgba(138,138,138,1);
+    overflow: auto;
+}
+
+#content-area .widget-box .head .widget-icon{
+    background: #BFBFBF;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+
+#content-area .widget-box .head .widget-icon-container{
+    display: inline-block;
+}
+
+#content-area .widget-box .head .widget-icon .fa{
+    max-width: 50%;
+    font-size: 22px;
+}
+
+#content-area .widget-box .head .widget-title{
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+
+
+#content-area .side-column{
+    float: left;
+    width: 35%;
+    margin: 0 2.5%;
+    max-width: 380px;
+}
+
+
+#content-area .main-area{
+float: left;
+width: 55%;
+margin: 0 2.5%;
+}
+
+
+#content-area .widget-box .body{
+    padding: 20px 0; 
+    }
+
+
+#content-area .main-area .widget-box.submenu{
+        padding: 0;
+        margin: 0;
+        margin: 0 0 20px 0;
+    }
+
+    #content-area .main-area .submenu ul{
+        padding: 0;
+            }
+
+    #content-area .main-area .submenu ul li{
+        display: inline-block;
+        padding: 10px;
+        width: 20%;
+        float: left;
+        text-align: center;
+        transition: all .4s ease-in-out;
+        cursor: pointer;
+           }
+
+    #content-area .main-area .submenu ul li:hover{
+        border-bottom: 3px solid #2196F3;
+        color: #2196F3;
+    }
+
+    #content-area .main-area .submenu ul li:nth-last-child(5){
+       padding: 28px 0 21px;
+           }
+
+    #content-area .main-area .submenu ul li .fa{
+        font-size: 20px;
+    }
+
+    #content-area .main-area .submenu ul li span{
+        display: block;
+        margin: 15px 0 0 0;
+        font-size: 14px;
+        text-transform: uppercase;
+            }
